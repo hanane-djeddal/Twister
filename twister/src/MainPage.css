@@ -1,0 +1,32 @@
+#mainpage {
+  background-image: linear-gradient(45deg, rgba(121, 85, 72, 0.3), rgba(158, 158, 158, 0.3) 100%)
+  ,url('./images/background-daylight.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#container{
+  margin-top : 100px;
+}
+#mainpage .gradient {
+  background: -webkit-linear-gradient(45deg, rgba(121, 85, 72, 0.3), rgba(158, 158, 158, 0.3) 100%);
+  background: linear-gradient(45deg, rgba(121, 85, 72, 0.3), rgba(158, 158, 158, 0.3) 100%);
+}
+
+
+
+
+#mainpage .top-nav-collapse {
+  background: rgb(199, 171, 171) !important;
+}
+
+@media (max-width: 768px) {
+  #mainpage .navbar:not(.top-nav-collapse) {
+      background: rgb(199, 171, 171) !important;
+  }
+}

@@ -1,0 +1,66 @@
+commandes_sql.sql
+userTools
+
+PLusieurs connexions d'un meme user
+
+
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>servlets.userServlets.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>servlets.userServlets.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateMessage</servlet-name>
+    <servlet-class>servlets.messageServlets.CreateMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteMessage</servlet-name>
+    <servlet-class>servlets.messageServlets.DeleteMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddFriend</servlet-name>
+    <servlet-class>servlets.friendServlets.AddFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteFriend</servlet-name>
+    <servlet-class>servlets.friendServlets.DeleteFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListFriend</servlet-name>
+    <servlet-class>servlets.friendServlets.ListFriend</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreationUser</servlet-name>
+    <url-pattern>/CreationUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreatMessage</servlet-name>
+    <url-pattern>/CreatMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMessage</servlet-name>
+    <url-pattern>/DeleteMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddFriend</servlet-name>
+    <url-pattern>/AddFriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteFriend</servlet-name>
+    <url-pattern>/DeleteFriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListFriend</servlet-name>
+    <url-pattern>/ListFriend</url-pattern>
+  </servlet-mapping>
